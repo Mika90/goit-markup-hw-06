@@ -9,7 +9,7 @@
     --container-width: 1200px;
     --footer-address-contact: #FFFFFF99;
     --footer-address-size: 14px;
-    --footer-address: #FFFFFF;
+    --footer-address: #FFF;
     --footer-logo: white;
     --h2-font-size: 36px;
     --header-container-border-color: #ECECEC;
@@ -31,7 +31,7 @@
     --portfolio-navigation-font-size: 16px;
     --portfolio-navigation-font-weight: 500;
     --portfolio-navigation-line-height: 1.25;
-    --portfolio-picture-border-color: #EEEEEE;
+    --portfolio-picture-border-color: #EEE;
     --portfolio-picture-title-font-size: 18px;
     --portfolio-picture-title-font-weight: 700;
     --portfolio-picture-title-line-height: 2;
@@ -452,7 +452,7 @@ h2 {
 }
 
 .job-text {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 14px;
     background-color: rgba(47, 48, 58, 0.8);
     width: 100%;
@@ -541,7 +541,7 @@ h2 {
     right: 8px;
     width: 30px;
     height: 30px;
-    background-color: #ffffff;
+    background-color: #FFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
@@ -603,7 +603,6 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-left: 12px;
-
 
 }
 
