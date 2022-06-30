@@ -87,7 +87,6 @@ h2 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
 }
 
 .portfolio-picture {
@@ -97,7 +96,6 @@ h2 {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border-color;
     position: relative;
-
 }
 
 .portfolio-picture:hover, .portfolio-picture:focus {
@@ -156,7 +154,6 @@ h2 {
 
 .our-team-image {
     margin-bottom: 30px;
-
 }
 
 .our-team-element {
@@ -258,7 +255,6 @@ h2 {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: box-shadow;
-
 }
 
 .picture-title {
@@ -532,7 +528,6 @@ h2 {
     width: 528px;
     min-height: 581px;
     background-color: white;
-
 }
 
 .close-btn {
@@ -587,7 +582,6 @@ h2 {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding-left: 16px;
-
 }
 
 .footer-button {
@@ -603,7 +597,6 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-left: 12px;
-
 }
 
 .footer-image {
@@ -612,7 +605,6 @@ h2 {
     background-color: transparent;
     fill: white;
     margin-left: 24px;
-
 }
 
 .footer-newsletter {
