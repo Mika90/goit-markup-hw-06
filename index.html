@@ -19,9 +19,15 @@
     <a class="logo-link" href="index.html"><span class="logo-start">Web</span>Studio</a>
     <nav>
       <ul>
-        <li class="header-link"><a class="link here" href="index.html">Agencja</a></li>
-        <li class="header-link"><a class="link" href="portfolio.html">Portfolio</a></li>
-        <li class="header-link"><a class="link header-link" href="">Kontakt</a></li>
+        <li class="header-link">
+          <a class="link here" href="index.html">Agencja</a>
+        </li>
+        <li class="header-link">
+          <a class="link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="header-link">
+          <a class="link header-link" href="">Kontakt</a>
+        </li>
       </ul>
     </nav>
     <div>
@@ -41,8 +47,10 @@
 <main>
   <section class="flexbox-header background-header background">
     <div class="container flexbox-header">
-      <h1 class="title">EFEKTYWNE ROZWIĄZANIA <br>
-        DLA WASZEGO BIZNESU</h1>
+      <h1 class="title">EFEKTYWNE ROZWIĄZANIA
+        <br>
+        DLA WASZEGO BIZNESU
+      </h1>
       <button class="order-button" data-modal-open type="button">Zamów usługę</button>
     </div>
   </section>
@@ -372,37 +380,52 @@ non sodales dui. Interdum et malesuada</span>
       <h3 class="form-header">Zostaw swoje dane w formularzu poniżej</h3>
     </div>
     <form class="contact-form" name="contact" autocomplete="on">
-      <div>
-        <label for="form-name">
-          <span class="form-data">Imię</span>
-        </label>
+
+      <label for="form-name">
+        <span class="form-data">Imię</span>
+      </label>
+      <div class="form-icon">
         <input id="form-name" class="contact-window" type="text" name="name" />
         <svg class="form-image">
           <use href="images/icons.svg#ludzik">
           </use>
         </svg>
       </div>
-      <label>
+
+      <label for="form-phone">
         <span class="form-data">Telefon</span>
-        <input class="contact-window" type="tel" name="phone" />
+      </label>
+      <div class="form-icon">
+        <input id="form-phone" class="contact-window" type="tel" name="phone" />
         <svg class="form-image">
           <use href="images/icons.svg#telefonik">
           </use>
         </svg>
-      </label>
-      <label>
+      </div>
+
+      <label for="form-email">
         <span class="form-data">Email</span>
-        <input class="contact-window" type="email" name="email" />
-        <svg class="form-image">
+      </label>
+      <div class="form-icon">
+        <input id="form-email" class="contact-window" type="email" name="email" />
+        <svg class="form-image" style="width: 16px; height: 12px">
           <use href="images/icons.svg#kopertuszka">
           </use>
         </svg>
-      </label>
+      </div>
+
       <label>
         <span class="form-data">Komentarz</span>
-        <textarea class="contact-window" name="comment" placeholder="Wprowadź tekst"></textarea>
+        <textarea class="contact-window contact-comment" name="comment" placeholder="Wprowadź tekst"></textarea>
       </label>
-      <button type="submit">Wyślij</button>
+      <div>
+        <input id="checkbox" type="checkbox" class="checkbox" name="checkbox">
+        <span class="checkbox-privacy">Oświadczam iż akceptuję <a href="" class="privacy-link">Regulamin</a>  i <a href="" class="privacy-link">Prywatności.</a>
+        </span>
+      </div>
+      <div class="form-button-send">
+      <button class="form-send" type="submit">Wyślij</button>
+  </div>
     </form>
   </div>
 </div>
